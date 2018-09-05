@@ -17,10 +17,10 @@ void Spotify::agregarFavoritos(Cancion &cancion)
 
 void Spotify::mostrar()
 {
-    for (int i = 0; i < 50; ++i) {
+    for (int i = 0; i < cont; ++i) {
         Cancion &cancion = favoritos[i];
 
-        cout << i + 1 << " "
+        cout << i + 1 << ". "
              << cancion.getTitulo() << " - "
              << cancion.getAlbum()  << " - "
              << cancion.getDuracion() << endl;
