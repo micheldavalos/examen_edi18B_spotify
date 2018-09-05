@@ -4,7 +4,9 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    cancion.cpp
+    cancion.cpp \
+    spotify.cpp
 
 HEADERS += \
-    cancion.h
+    cancion.h \
+    spotify.h
